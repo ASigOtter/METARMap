@@ -1,0 +1,9 @@
+I DONT KNOW WHICH WORKED I APPLIED IT IN BOTH crontab -e and sudo crontab -e
+
+then the lines i used were as follows
+
+@reboot sudo python3 /home/kody/metar.py      NO SUDO ON SUDO CRONTAB
+*/ 7-21 * * * /home/kody/refresh.sh
+05 22 * * * /home/kody/lightsoff.sh
+
+
